@@ -1,0 +1,30 @@
+$c-primary: #F03000;
+$c-secondary: #F0F0F0;
+$c-shadow: #80808080;
+$c-date: #888888;
+$c-footer: #444444;
+$rozestup: 20px;
+$fs-basic: 16px;
+$fs-title: 28px;
+$fs-secondary: 18px;
+
+
+
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+h1 {
+    color: $c-primary;
+}
+
+.header__menu {
+    display: flex;
+    
+}
+
+.footer {
+    background-color: $c-footer;
+    color: white;
+    padding: $rozestup;
+    text-align: center;
+}
